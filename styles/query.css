@@ -16,8 +16,13 @@
     
     .card-body a {
         margin-top: 4px;
-    }
-    /* 避免連結按鈕上下排列時 黏在一起 */
+    } /* 避免連結按鈕上下排列時 黏在一起 */
+
+    #hope {
+        font-size: 1.2rem; /* 20px */
+        line-height: 1rem; /* 28px */
+    } /* 避免目標被擠成兩行 */
+
 }
 
 @media (max-width: 348px) {

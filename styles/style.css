@@ -107,3 +107,7 @@ body footer ul li i {
 .text-center {
   text-align: center;
 }
+.projects .card:hover {
+  border-color: rgb(0, 47, 236);
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2);
+}

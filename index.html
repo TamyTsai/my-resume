@@ -97,8 +97,8 @@
                           Tamy
                         </div>
                     </div>
-                    <div class="text-2xl text-center" id="hope">
-                      目標成為網頁工程師！
+                    <div class="text-xl text-center" id="hope">
+                      tamy8677@gmail.com
                     </div>
                     <!-- 社群媒體 使用font awesome-->
                     <!-- <div class="social-media">
@@ -129,7 +129,7 @@
 
                                 <tr>
                                     <td rowspan="7" class="text-center font-bold">前端框架</td>
-                                    <!-- <td>Bootstrap, Bulma, Tailwind, Stimulus.js, Vue.js, JQurey</td> -->
+                                    <!-- <td>Bootstrap, Bulma, Tailwind, Stimulus.js, Vue.js, JQuery</td> -->
                                 </tr>
                                 <tr>
                                   <td>Bootstrap</td>
@@ -147,7 +147,7 @@
                                   <td>Vue.js</td>
                                 </tr>
                                 <tr>
-                                  <td>jQurey</td>
+                                  <td>jQuery</td>
                                 </tr>
 
                                 <tr>
@@ -185,6 +185,300 @@
                 </div>
                 <!-- 經歷 -->
                 <aside class="experience container-lg col-8 p-3">
+                    <!-- GitHub 及 專案 -->
+                    <div class="h2">作品集</div>
+                    <div class="GitHub-projects">
+                        <!-- GitHub連結按鈕 使用Bootstrap 按鈕 -->
+                        <div class="GitHub d-grid gap-1 col-12 mx-auto mt-2 mb-2">
+                        <!-- Bootstrap d-grid：使按鈕為Block型元素 gap：多按鈕時的間距（0～5） col：佔外層元素寬度比例（0～12） mx（x軸剩下的寬度分配，auto就是置中） mt（margin-top高度）-->
+                            <a href="https://github.com/TamyTsai" class="btn btn-dark btn-lg" role="button">
+                                <i class="fa-brands fa-github"></i>&nbsp;GitHub
+                            </a>
+                        </div>
+                        <!-- 專案 使用Bootstrap 卡片（Card）、陰影 -->
+                        <div class="projects row row-cols-1 row-cols-lg-2 g-8"> <!-- breakpoint以Bootstrap設在992px（lg） -->
+                            <div class="col">
+                            <div class="card p-2 mb-5 bg-body-tertiary rounded"> <!-- Bootstrap陰影 -->
+                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面1&font=noto" class="card-img-top" alt="專案1"> -->
+                                <img src="images/Bcard.png" class="card-img-top" alt="Bcard論壇網站畫面">
+                                <div class="card-body">
+                                  <h5 class="card-title font-bold">Bcard論壇網站</h5>
+                                  <p class="card-text">
+                                    <p class="text-xl">簡介</p>
+                                    <hr>
+                                    <ul>
+                                      <li>Bcard為一個論壇網站，復刻臺灣知名論壇<a href="https://www.dcard.tw/f">Dcard</a></li>
+                                      <li>在本論壇中，可以瀏覽會員所發佈的文章，也可以註冊成為會員，自己撰寫文章</li>
+                                      <li>登入後，可以自由撰寫文章，還可以收藏他人文章；為他人文章按愛心；追蹤其他使用者，也可以於文章下留言發表感想</li>
+                                    </ul>
+                                    <!-- <p class="text-xl">目的</p>
+                                    <hr>
+                                      <ul>
+                                        <li>練習Rails、Bulma、Tailwind CSS、Stimulus.js框架</li>
+                                      </ul> -->
+                                    <p class="text-xl">技術</p>
+                                    <hr>
+                                    <ul>
+                                      <li>前端：Bulma、Tailwind CSS、Stimulus.js</li>
+                                      <li>後端：Ruby on Rails</li>
+                                      <li>資料庫：PostgreSQL</li>
+                                      <li>版本控制：Git</li>
+                                    </ul>
+                                    <!-- <hr> -->
+                                  </p>
+                                  <a href="https://github.com/TamyTsai/Bcard-forum" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                  <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面2&font=noto" class="card-img-top" alt="專案2"> -->
+                                <img src="images/BMI計算器.png" class="card-img-top" alt="BMI計算器畫面">
+                                <div class="card-body">
+                                  <h5 class="card-title font-bold">BMI計算器</h5>
+                                  <p class="card-text">
+                                    <p class="text-xl">簡介</p>
+                                    <hr>
+                                    <ul>
+                                      <li>本計算器可以計算出BMI，並顯示體位是否符合衛福部標準</li>
+                                    </ul>
+                                    <!-- <p class="text-xl">目的</p>
+                                    <hr>
+                                      <ul>
+                                        <li>練習Sinatra框架</li>
+                                      </ul> -->
+                                    <p class="text-xl">技術</p>
+                                    <hr>
+                                    <ul>
+                                      <li>前端：HTML、CSS、jQuery</li>
+                                      <li>後端：Sinatra</li>
+                                      <li>版本控制：Git</li>
+                                    </ul>
+                                    <!-- <hr> -->
+                                  </p>
+                                  <a href="https://github.com/TamyTsai/Sinatra-based-BMI-calculator" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                  <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面3&font=noto" class="card-img-top" alt="專案3"> -->
+                                <img src="images/火山矽肺症拼字挑戰.png" class="card-img-top" alt="火山矽肺症拼字挑戰畫面">
+                                <div class="card-body">
+                                  <h5 class="card-title font-bold">火山矽肺症拼字挑戰</h5>
+                                  <p class="card-text">
+                                    <p class="text-xl">簡介</p>
+                                    <hr>
+                                    <ul>
+                                      <li>遊戲要求在10秒內打完火山矽肺症的英文，可挑戰英打速度</li>
+                                    </ul>
+                                    <p class="text-xl">特色</p>
+                                    <hr>
+                                      <ul>
+                                        <li>使用AJAX技術</li>
+                                      </ul>
+                                    <p class="text-xl">技術</p>
+                                    <hr>
+                                    <ul>
+                                      <li>前端：HTML、CSS、jQuery</li>
+                                      <li>部署：GitHub Pages</li>
+                                      <li>版本控制：Git</li>
+                                    </ul>
+                                    <!-- <hr> -->
+                                  </p>
+                                  <a href="https://github.com/TamyTsai/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                  <a href="https://tamytsai.github.io/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案4"> -->
+                                <img src="images/查克拉凝聚遊戲.png" class="card-img-top" alt="查克拉凝聚遊戲畫面">
+                                <div class="card-body">
+                                  <h5 class="card-title font-bold">查克拉凝聚遊戲</h5>
+                                  <p class="card-text">
+                                    <p class="text-xl">簡介</p>
+                                    <hr>
+                                    <ul>
+                                      <li>遊戲透過快速點擊按鈕來施放絕招，可挑戰點擊手速</li>
+                                    </ul>
+                                    <!-- <p class="text-xl">目的</p>
+                                    <hr>
+                                      <ul>
+                                        <li>練習Vue.js框架</li>
+                                      </ul> -->
+                                    <p class="text-xl">技術</p>
+                                    <hr>
+                                    <ul>
+                                      <li>前端：HTML、CSS、Vue.js</li>
+                                      <li>部署：GitHub Pages</li>
+                                      <li>版本控制：Git</li>
+                                    </ul>
+                                    <!-- <hr> -->
+                                  </p>
+                                  <a href="https://github.com/TamyTsai/chakra-game-using-Vue.js" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                  <a href="https://tamytsai.github.io/chakra-game-using-Vue.js/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案5"> -->
+                                  <img src="images/臺灣GDP及經濟成長率資料視覺化.png" class="card-img-top" alt="臺灣GDP及經濟成長率資料視覺化畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">臺灣GDP及經濟成長率資料視覺化</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>將臺灣2014～2023年之GDP及經濟成長率以資料視覺化之方式呈現</li>
+                                      </ul>
+                                      <!-- <p class="text-xl">目的</p>
+                                      <hr>
+                                        <ul>
+                                          <li>練習Chart.js之使用</li>
+                                        </ul> -->
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：HTML、Chart.js</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/Taiwan-GDP-and-economic-growth-rate" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案6"> -->
+                                  <img src="images/臺中市印花稅徵收資料.png" class="card-img-top" alt="臺中市印花稅徵收資料畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">臺中市印花稅徵收資料</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>透過串接政府公開資料，以表格呈現2015年11月臺中市印花稅徵收資料</li>
+                                      </ul>
+                                      <p class="text-xl">特色</p>
+                                      <hr>
+                                        <ul>
+                                          <li>以AJAX手法串接外部API</li>
+                                        </ul>
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：HTML、Bootstrap、jQuery</li>
+                                        <li>部署：GitHub Pages</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/Taichung-stamp-tax-revenue" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <a href="https://tamytsai.github.io/Taichung-stamp-tax-revenue/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
+                                  </div>
+                              </div>
+                            </div>
+                            <!-- <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案7">
+                                  <img src="images/猜數字遊戲.png" class="card-img-top" alt="猜數字遊戲畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">猜數字遊戲</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>透過不斷猜測數字，及網頁回饋之提示，一步步接近並命中謎底的遊戲</li>
+                                      </ul>
+                                      <p class="text-xl">目的</p>
+                                      <hr>
+                                        <ul>
+                                          <li>練習JavaScript撰寫</li>
+                                        </ul>
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：HTML、CSS、JavaScript</li>
+                                        <li>部署：GitHub Pages</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/guess-number-game" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <a href="https://tamytsai.github.io/guess-number-game/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
+                                  </div>
+                              </div>
+                            </div> -->
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面8&font=noto" class="card-img-top" alt="專案8"> -->
+                                  <img src="images/簡歷模版.png" class="card-img-top" alt="簡歷模版畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">簡歷模版</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>提供給軟體工程師求職者的簡歷模版</li>
+                                      </ul>
+                                      <!-- <p class="text-xl">目的</p>
+                                      <hr>
+                                        <ul>
+                                          <li>練習使用Bootstrap框架，及SCSS、RWD之撰寫</li>
+                                        </ul> -->
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：HTML、Bootstrap</li>
+                                        <li>部署：GitHub Pages</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/resume-template-original-single-page" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <a href="https://tamytsai.github.io/resume-template-original-single-page/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案9"> -->
+                                  <img src="images/臺灣博碩士論文知識加值系統首頁.png" class="card-img-top" alt="臺灣博碩士論文知識加值系統首頁畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">臺灣博碩士論文知識加值系統首頁</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>復刻<a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=d">臺灣博碩士論文知識加值系統首頁</a></li>
+                                      </ul>
+                                      <!-- <p class="text-xl">目的</p>
+                                      <hr>
+                                        <ul>
+                                          <li>練習切版</li>
+                                        </ul> -->
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：HTML、CSS</li>
+                                        <li>部署：GitHub Pages</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/National-Digital-Library-of-Theses-and-Dissertations-in-Taiwan-index-page?tab=readme-ov-file" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <a href="https://tamytsai.github.io/National-Digital-Library-of-Theses-and-Dissertations-in-Taiwan-index-page/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- 學經歷 使用Bootstrap 風琴折疊（Accordion）-->
                     <div class="job-experience accordion" id="accordion">
                         <div class="h2">學經歷</div>
@@ -266,301 +560,6 @@
                               </ul>
                             </div>
                           </div>
-                        </div>
-                    </div>
-                    <!-- GitHub 及 專案 -->
-                    <div class="h2">作品集</div>
-                    <div class="GitHub-projects">
-                        <!-- GitHub連結按鈕 使用Bootstrap 按鈕 -->
-                        <div class="GitHub d-grid gap-1 col-12 mx-auto mt-2 mb-2">
-                        <!-- Bootstrap d-grid：使按鈕為Block型元素 gap：多按鈕時的間距（0～5） col：佔外層元素寬度比例（0～12） mx（x軸剩下的寬度分配，auto就是置中） mt（margin-top高度）-->
-                            <a href="https://github.com/TamyTsai" class="btn btn-dark btn-lg" role="button">
-                                <i class="fa-brands fa-github"></i>&nbsp;GitHub
-                            </a>
-                        </div>
-                        <!-- 專案 使用Bootstrap 卡片（Card）、陰影 -->
-                        <div class="projects row row-cols-1 row-cols-lg-2 g-9"> <!-- breakpoint以Bootstrap設在992px（lg） -->
-                            <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded"> <!-- Bootstrap陰影 -->
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面1&font=noto" class="card-img-top" alt="專案1"> -->
-                                <img src="images/Bcard.png" class="card-img-top" alt="Bcard論壇網站畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">Bcard論壇網站</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>Bcard為一個論壇網站，復刻臺灣知名論壇<a href="https://www.dcard.tw/f">Dcard</a></li>
-                                      <li>在本論壇中，可以瀏覽會員所發佈的文章，也可以註冊成為會員，自己撰寫文章</li>
-                                      <li>登入後，可以自由撰寫文章，還可以收藏他人文章；為他人文章按愛心；追蹤其他使用者，也可以於文章下留言發表感想</li>
-                                    </ul>
-                                    <p class="text-xl">目的</p>
-                                    <hr>
-                                      <ul>
-                                        <li>練習Rails、Bulma、Tailwind CSS、Stimulus.js框架</li>
-                                      </ul>
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：Bulma、Tailwind CSS、Stimulus.js</li>
-                                      <li>後端：Ruby on Rails</li>
-                                      <li>資料庫：PostgreSQL</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/Bcard-forum" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面2&font=noto" class="card-img-top" alt="專案2"> -->
-                                <img src="images/BMI計算器.png" class="card-img-top" alt="BMI計算器畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">BMI計算器</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>本計算器可以計算出BMI，並顯示體位是否符合衛福部標準</li>
-                                    </ul>
-                                    <p class="text-xl">目的</p>
-                                    <hr>
-                                      <ul>
-                                        <li>練習Sinatra框架</li>
-                                      </ul>
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：HTML、CSS、jQurey</li>
-                                      <li>後端：Sinatra</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/Sinatra-based-BMI-calculator" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面3&font=noto" class="card-img-top" alt="專案3"> -->
-                                <img src="images/火山矽肺症拼字挑戰.png" class="card-img-top" alt="火山矽肺症拼字挑戰畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">火山矽肺症拼字挑戰</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>遊戲要求在10秒內打完火山矽肺症的英文，可挑戰英打速度</li>
-                                    </ul>
-                                    <p class="text-xl">目的</p>
-                                    <hr>
-                                      <ul>
-                                        <li>練習AJAX技術</li>
-                                      </ul>
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：HTML、CSS、jQurey</li>
-                                      <li>部署：GitHub Pages</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <a href="https://tamytsai.github.io/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案4"> -->
-                                <img src="images/查克拉凝聚遊戲.png" class="card-img-top" alt="查克拉凝聚遊戲畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">查克拉凝聚遊戲</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>遊戲透過快速點擊按鈕來施放絕招，可挑戰點擊手速</li>
-                                    </ul>
-                                    <p class="text-xl">目的</p>
-                                    <hr>
-                                      <ul>
-                                        <li>練習Vue.js框架</li>
-                                      </ul>
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：HTML、CSS、Vue.js</li>
-                                      <li>部署：GitHub Pages</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/chakra-game-using-Vue.js" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <a href="https://tamytsai.github.io/chakra-game-using-Vue.js/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col">
-                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案5"> -->
-                                  <img src="images/臺灣GDP及經濟成長率資料視覺化.png" class="card-img-top" alt="臺灣GDP及經濟成長率資料視覺化畫面">
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">臺灣GDP及經濟成長率資料視覺化</h5>
-                                    <p class="card-text">
-                                      <p class="text-xl">簡介</p>
-                                      <hr>
-                                      <ul>
-                                        <li>將臺灣2014～2023年之GDP及經濟成長率以資料視覺化之方式呈現</li>
-                                      </ul>
-                                      <p class="text-xl">目的</p>
-                                      <hr>
-                                        <ul>
-                                          <li>練習Chart.js之使用</li>
-                                        </ul>
-                                      <p class="text-xl">技術</p>
-                                      <hr>
-                                      <ul>
-                                        <li>前端：HTML、Chart.js</li>
-                                        <li>版本控制：Git</li>
-                                      </ul>
-                                      <!-- <hr> -->
-                                    </p>
-                                    <a href="https://github.com/TamyTsai/Taiwan-GDP-and-economic-growth-rate" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                    <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col">
-                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案6"> -->
-                                  <img src="images/臺中市印花稅徵收資料.png" class="card-img-top" alt="臺中市印花稅徵收資料畫面">
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">臺中市印花稅徵收資料</h5>
-                                    <p class="card-text">
-                                      <p class="text-xl">簡介</p>
-                                      <hr>
-                                      <ul>
-                                        <li>透過串接政府公開資料，以表格呈現2015年11月臺中市印花稅徵收資料</li>
-                                      </ul>
-                                      <p class="text-xl">目的</p>
-                                      <hr>
-                                        <ul>
-                                          <li>練習以AJAX手法串接外部API，及jQuery框架之使用</li>
-                                        </ul>
-                                      <p class="text-xl">技術</p>
-                                      <hr>
-                                      <ul>
-                                        <li>前端：HTML、Bootstrap、jQuery</li>
-                                        <li>部署：GitHub Pages</li>
-                                        <li>版本控制：Git</li>
-                                      </ul>
-                                      <!-- <hr> -->
-                                    </p>
-                                    <a href="https://github.com/TamyTsai/Taichung-stamp-tax-revenue" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                    <a href="https://tamytsai.github.io/Taichung-stamp-tax-revenue/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col">
-                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案7"> -->
-                                  <img src="images/猜數字遊戲.png" class="card-img-top" alt="猜數字遊戲畫面">
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">猜數字遊戲</h5>
-                                    <p class="card-text">
-                                      <p class="text-xl">簡介</p>
-                                      <hr>
-                                      <ul>
-                                        <li>透過不斷猜測數字，及網頁回饋之提示，一步步接近並命中謎底的遊戲</li>
-                                      </ul>
-                                      <p class="text-xl">目的</p>
-                                      <hr>
-                                        <ul>
-                                          <li>練習JavaScript撰寫</li>
-                                        </ul>
-                                      <p class="text-xl">技術</p>
-                                      <hr>
-                                      <ul>
-                                        <li>前端：HTML、CSS、JavaScript</li>
-                                        <li>部署：GitHub Pages</li>
-                                        <li>版本控制：Git</li>
-                                      </ul>
-                                      <!-- <hr> -->
-                                    </p>
-                                    <a href="https://github.com/TamyTsai/guess-number-game" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                    <a href="https://tamytsai.github.io/guess-number-game/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col">
-                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面8&font=noto" class="card-img-top" alt="專案8"> -->
-                                  <img src="images/簡歷模版.png" class="card-img-top" alt="簡歷模版畫面">
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">簡歷模版</h5>
-                                    <p class="card-text">
-                                      <p class="text-xl">簡介</p>
-                                      <hr>
-                                      <ul>
-                                        <li>提供給軟體工程師求職者的簡歷模版</li>
-                                      </ul>
-                                      <p class="text-xl">目的</p>
-                                      <hr>
-                                        <ul>
-                                          <li>練習使用Bootstrap框架，及SCSS、RWD之撰寫</li>
-                                        </ul>
-                                      <p class="text-xl">技術</p>
-                                      <hr>
-                                      <ul>
-                                        <li>前端：HTML、Bootstrap</li>
-                                        <li>部署：GitHub Pages</li>
-                                        <li>版本控制：Git</li>
-                                      </ul>
-                                      <!-- <hr> -->
-                                    </p>
-                                    <a href="https://github.com/TamyTsai/resume-template-original-single-page" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                    <a href="https://tamytsai.github.io/resume-template-original-single-page/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col">
-                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案9"> -->
-                                  <img src="images/臺灣博碩士論文知識加值系統首頁.png" class="card-img-top" alt="臺灣博碩士論文知識加值系統首頁畫面">
-                                  <div class="card-body">
-                                    <h5 class="card-title font-bold">臺灣博碩士論文知識加值系統首頁</h5>
-                                    <p class="card-text">
-                                      <p class="text-xl">簡介</p>
-                                      <hr>
-                                      <ul>
-                                        <li>復刻<a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=d">臺灣博碩士論文知識加值系統首頁</a></li>
-                                      </ul>
-                                      <p class="text-xl">目的</p>
-                                      <hr>
-                                        <ul>
-                                          <li>練習切版</li>
-                                        </ul>
-                                      <p class="text-xl">技術</p>
-                                      <hr>
-                                      <ul>
-                                        <li>前端：HTML、CSS</li>
-                                        <li>部署：GitHub Pages</li>
-                                        <li>版本控制：Git</li>
-                                      </ul>
-                                      <!-- <hr> -->
-                                    </p>
-                                    <a href="https://github.com/TamyTsai/National-Digital-Library-of-Theses-and-Dissertations-in-Taiwan-index-page?tab=readme-ov-file" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                    <a href="https://tamytsai.github.io/National-Digital-Library-of-Theses-and-Dissertations-in-Taiwan-index-page/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                  </div>
-                              </div>
-                            </div>
                         </div>
                     </div>
                 </aside> 

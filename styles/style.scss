@@ -1,4 +1,18 @@
 body {
+    // 粗體字設定
+    .font-bold {
+        font-weight: bold;
+    }
+
+    // 字體大小設定
+    .text-xl {
+        font-size: larger;
+    }
+
+    .text-2xl {
+        font-size: x-large;
+    }
+
     // 主要內容
     article { 
         background-color: #FFFCEC;
@@ -79,6 +93,15 @@ body {
                     margin-right: 5px;
                 }
 
+            }
+
+            // 證照
+            .certification {
+                .h2 {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                }
             }
         }
         // 經歷

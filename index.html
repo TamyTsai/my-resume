@@ -155,18 +155,26 @@
                                 </tr>
 
                                 <tr>
-                                  <td class="text-center font-bold">後端語言</td>
+                                  <td rowspan="3" class="text-center font-bold">後端語言</td>
+                                </tr>
+                                <tr>
                                   <td>Ruby</td>
+                                </tr>
+                                <tr>
+                                  <td>Python</td>
                                 </tr>
 
                                 <tr>
-                                    <td rowspan="3" class="text-center font-bold">後端框架</td>
+                                    <td rowspan="4" class="text-center font-bold">後端框架</td>
                                 </tr>
                                 <tr>
                                   <td>Ruby on Rails</td>
                                 </tr>
                                 <tr>
                                   <td>Sinatra</td>
+                                </tr>
+                                <tr>
+                                  <td>Pygame</td>
                                 </tr>
 
                                 <tr>
@@ -219,112 +227,173 @@
                         <!-- 專案 使用Bootstrap 卡片（Card）、陰影 -->
                         <div class="projects row row-cols-1 row-cols-lg-2 g-8"> <!-- breakpoint以Bootstrap設在992px（lg） -->
                             <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded"> <!-- Bootstrap陰影 -->
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面1&font=noto" class="card-img-top" alt="專案1"> -->
-                                <img src="images/Bcard.png" class="card-img-top" alt="Bcard論壇網站畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">Bcard論壇網站</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>Bcard為一個論壇網站，復刻臺灣知名論壇<a href="https://www.dcard.tw/f">Dcard</a></li>
-                                      <li>在本論壇中，可以瀏覽會員所發佈的文章，也可以註冊成為會員，自己撰寫文章</li>
-                                      <li>登入後，可以自由撰寫文章，還可以收藏他人文章；為他人文章按愛心；追蹤其他使用者，也可以於文章下留言發表感想</li>
-                                    </ul>
-                                    <!-- <p class="text-xl">目的</p>
-                                    <hr>
-                                      <ul>
-                                        <li>練習Rails、Bulma、Tailwind CSS、Stimulus.js框架</li>
-                                      </ul> -->
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：Bulma、Tailwind CSS、Stimulus.js</li>
-                                      <li>後端：Ruby on Rails</li>
-                                      <li>資料庫：PostgreSQL</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/Bcard-forum" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面2&font=noto" class="card-img-top" alt="專案2"> -->
-                                <img src="images/BMI計算器.png" class="card-img-top" alt="BMI計算器畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">BMI計算器</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>本計算器可以計算出BMI，並顯示體位是否符合衛福部標準</li>
-                                    </ul>
-                                    <!-- <p class="text-xl">目的</p>
-                                    <hr>
-                                      <ul>
-                                        <li>練習Sinatra框架</li>
-                                      </ul> -->
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：HTML、CSS、jQuery</li>
-                                      <li>後端：Sinatra</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/Sinatra-based-BMI-calculator" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面3&font=noto" class="card-img-top" alt="專案3"> -->
-                                <img src="images/火山矽肺症拼字挑戰.png" class="card-img-top" alt="火山矽肺症拼字挑戰畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">火山矽肺症拼字挑戰</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>遊戲要求在10秒內打完火山矽肺症的英文，可挑戰英打速度</li>
-                                    </ul>
-                                    <p class="text-xl">特色</p>
-                                    <hr>
-                                      <ul>
-                                        <li>使用非同步函式</li>
-                                      </ul>
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：HTML、CSS、jQuery</li>
-                                      <li>部署：GitHub Pages</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <a href="https://tamytsai.github.io/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                </div>
-                            </div>
-                            </div>
-                            <div class="col">
-                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案4"> -->
-                                  <img src="images/待辦清單.png" class="card-img-top" alt="待辦清單畫面">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded"> <!-- Bootstrap陰影 -->
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面1&font=noto" class="card-img-top" alt="專案1"> -->
+                                  <img src="images/Bcard.png" class="card-img-top" alt="Bcard論壇網站畫面">
                                   <div class="card-body">
-                                    <h5 class="card-title font-bold">待辦清單</h5>
+                                    <h5 class="card-title font-bold">Bcard論壇網站</h5>
                                     <p class="card-text">
                                       <p class="text-xl">簡介</p>
                                       <hr>
                                       <ul>
-                                        <li>供使用者記錄待辦事項，且可將待辦事項分類</li>
+                                        <li>Bcard為一個論壇網站，復刻臺灣知名論壇<a href="https://www.dcard.tw/f">Dcard</a></li>
+                                        <li>在本論壇中，可以瀏覽會員所發佈的文章，也可以註冊成為會員，自己撰寫文章</li>
+                                        <li>登入後，可以自由撰寫文章，還可以收藏他人文章；為他人文章按愛心；追蹤其他使用者，也可以於文章下留言發表感想</li>
+                                      </ul>
+                                      <!-- <p class="text-xl">目的</p>
+                                      <hr>
+                                        <ul>
+                                          <li>練習Rails、Bulma、Tailwind CSS、Stimulus.js框架</li>
+                                        </ul> -->
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：Bulma、Tailwind CSS、Stimulus.js</li>
+                                        <li>後端：Ruby on Rails</li>
+                                        <li>資料庫：PostgreSQL</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/Bcard-forum" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面2&font=noto" class="card-img-top" alt="專案2"> -->
+                                  <img src="images/BMI計算器.png" class="card-img-top" alt="BMI計算器畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">BMI計算器</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>本計算器可以計算出BMI，並顯示體位是否符合衛福部標準</li>
+                                      </ul>
+                                      <!-- <p class="text-xl">目的</p>
+                                      <hr>
+                                        <ul>
+                                          <li>練習Sinatra框架</li>
+                                        </ul> -->
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：HTML、CSS、jQuery</li>
+                                        <li>後端：Sinatra</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/Sinatra-based-BMI-calculator" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面2&font=noto" class="card-img-top" alt="專案2"> -->
+                                  <img src="images/打地鼠遊戲.png" class="card-img-top" alt="打地鼠遊戲畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">打地鼠遊戲</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>在時限內挑戰打到最多的地鼠，為挑戰手眼協調性的遊戲</li>
+                                      </ul>
+                                      <!-- <p class="text-xl">目的</p>
+                                      <hr>
+                                        <ul>
+                                          <li></li>
+                                        </ul> -->
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>程式語言：Python</li>
+                                        <li>框架：Pygame</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/whack-a-mole-game" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <!-- <a href="#" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                                <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                    <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案4"> -->
+                                    <img src="images/待辦清單.png" class="card-img-top" alt="待辦清單畫面">
+                                    <div class="card-body">
+                                      <h5 class="card-title font-bold">待辦清單</h5>
+                                      <p class="card-text">
+                                        <p class="text-xl">簡介</p>
+                                        <hr>
+                                        <ul>
+                                          <li>供使用者記錄待辦事項，且可將待辦事項分類</li>
+                                        </ul>
+                                        <!-- <p class="text-xl">目的</p>
+                                        <hr>
+                                          <ul>
+                                            <li>練習Vue.js框架</li>
+                                          </ul> -->
+                                        <p class="text-xl">技術</p>
+                                        <hr>
+                                        <ul>
+                                          <li>前端：HTML、Tailwind CSS、Vue3</li>
+                                          <li>版本控制：Git</li>
+                                        </ul>
+                                        <!-- <hr> -->
+                                      </p>
+                                      <a href="https://github.com/TamyTsai/to-do-list-vue3" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                      <!-- <a href="" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面3&font=noto" class="card-img-top" alt="專案3"> -->
+                                  <img src="images/火山矽肺症拼字挑戰.png" class="card-img-top" alt="火山矽肺症拼字挑戰畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">火山矽肺症拼字挑戰</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>遊戲要求在10秒內打完火山矽肺症的英文，可挑戰英打速度</li>
+                                      </ul>
+                                      <p class="text-xl">特色</p>
+                                      <hr>
+                                        <ul>
+                                          <li>使用非同步函式</li>
+                                        </ul>
+                                      <p class="text-xl">技術</p>
+                                      <hr>
+                                      <ul>
+                                        <li>前端：HTML、CSS、jQuery</li>
+                                        <li>部署：GitHub Pages</li>
+                                        <li>版本控制：Git</li>
+                                      </ul>
+                                      <!-- <hr> -->
+                                    </p>
+                                    <a href="https://github.com/TamyTsai/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <a href="https://tamytsai.github.io/Pneumonoultramicroscopicsilicovolcanoconiosis-spelling-game/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="card p-2 mb-5 bg-body-tertiary rounded">
+                                  <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案4"> -->
+                                  <img src="images/查克拉凝聚遊戲.png" class="card-img-top" alt="查克拉凝聚遊戲畫面">
+                                  <div class="card-body">
+                                    <h5 class="card-title font-bold">查克拉凝聚遊戲</h5>
+                                    <p class="card-text">
+                                      <p class="text-xl">簡介</p>
+                                      <hr>
+                                      <ul>
+                                        <li>遊戲透過快速點擊按鈕來施放絕招，可挑戰點擊手速</li>
                                       </ul>
                                       <!-- <p class="text-xl">目的</p>
                                       <hr>
@@ -334,46 +403,16 @@
                                       <p class="text-xl">技術</p>
                                       <hr>
                                       <ul>
-                                        <li>前端：HTML、Tailwind CSS、Vue3</li>
+                                        <li>前端：HTML、CSS、Vue.js</li>
+                                        <li>部署：GitHub Pages</li>
                                         <li>版本控制：Git</li>
                                       </ul>
                                       <!-- <hr> -->
                                     </p>
-                                    <a href="https://github.com/TamyTsai/to-do-list-vue3" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                    <!-- <a href="" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a> -->
+                                    <a href="https://github.com/TamyTsai/chakra-game-using-Vue.js" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                                    <a href="https://tamytsai.github.io/chakra-game-using-Vue.js/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
                                   </div>
                               </div>
-                            </div>
-                            <div class="col">
-                            <div class="card p-2 mb-5 bg-body-tertiary rounded">
-                                <!-- <img src="https://fakeimg.pl/200x100/?retina=1&text=專案畫面4&font=noto" class="card-img-top" alt="專案4"> -->
-                                <img src="images/查克拉凝聚遊戲.png" class="card-img-top" alt="查克拉凝聚遊戲畫面">
-                                <div class="card-body">
-                                  <h5 class="card-title font-bold">查克拉凝聚遊戲</h5>
-                                  <p class="card-text">
-                                    <p class="text-xl">簡介</p>
-                                    <hr>
-                                    <ul>
-                                      <li>遊戲透過快速點擊按鈕來施放絕招，可挑戰點擊手速</li>
-                                    </ul>
-                                    <!-- <p class="text-xl">目的</p>
-                                    <hr>
-                                      <ul>
-                                        <li>練習Vue.js框架</li>
-                                      </ul> -->
-                                    <p class="text-xl">技術</p>
-                                    <hr>
-                                    <ul>
-                                      <li>前端：HTML、CSS、Vue.js</li>
-                                      <li>部署：GitHub Pages</li>
-                                      <li>版本控制：Git</li>
-                                    </ul>
-                                    <!-- <hr> -->
-                                  </p>
-                                  <a href="https://github.com/TamyTsai/chakra-game-using-Vue.js" class="btn btn-dark"><i class="fa-brands fa-github"></i>&nbsp;GitHub</a>
-                                  <a href="https://tamytsai.github.io/chakra-game-using-Vue.js/" class="btn btn-primary"><i class="fa-solid fa-link"></i>&nbsp;展示網頁</a>
-                                </div>
-                            </div>
                             </div>
                             <div class="col">
                               <div class="card p-2 mb-5 bg-body-tertiary rounded">

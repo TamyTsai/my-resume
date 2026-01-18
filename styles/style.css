@@ -1,3 +1,12 @@
+body .font-bold {
+  font-weight: bold;
+}
+body .text-xl {
+  font-size: larger;
+}
+body .text-2xl {
+  font-size: x-large;
+}
 body article {
   background-color: #FFFCEC;
 }
@@ -60,6 +69,11 @@ body article .info .skills .h2 {
 }
 body article .info .skills i {
   margin-right: 5px;
+}
+body article .info .certification .h2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 body article .experience .job-experience .h2 {
   margin-top: 15px;
